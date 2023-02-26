@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.ant-layout-header {
+  background-color: blueviolet !important;
+  color: white !important;
+  font-size: x-large;
+}
+.headerContainer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+.taskButton {
+  float: right;
+  color: blueviolet;
+}
+.searchBar {
+  margin-top: 3%;
+  justify-content: space-between;
+}
